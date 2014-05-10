@@ -1,0 +1,116 @@
+author: [Zachoz, Reicy_]
+database: true
+description: Minecraft Infection Plugin for CraftBukkit
+main: com.oresome.OresomeInfection.Infection
+name: Oresome Infection
+url: http://oresomecraft.com
+softdepend: [Vault]
+version: 1.1
+commands:
+  buy:
+    description: Spend cookies at the shop!
+    usage: /<command> [package]
+    aliases: [shop, b]
+  warn:
+    description: Warn a player.
+    usage: /<command> [player] [reason]
+    aliases: [w]
+  setcookies:
+    description: Set a player's amount of cookies.
+    usage: /<command> [player] [amount]
+    aliases: [setmoney, reset]
+  roundsleft:
+    description: See how many rounds are left.
+    usage: /<command>
+    aliases: [rounds, left]
+  referee:
+    description: Fly around invisible in creative.
+    usage: /<command>
+    aliases: [ref]
+  restart:
+    description: Restarts after the round.
+    usage: /<command>
+    aliases: [res, nolag, finish]
+  allowblocks:
+    description: Allow the editing of maps when a round is off.
+    usage: /<command>
+    aliases: [blocks, building]
+  rotation:
+    description: See what maps are on the rotation.
+    usage: /<command>
+    aliases: [rot]
+  money:
+    description: Check how many cookies you have.
+    usage: /<command>
+    aliases: [cookies]
+  endround:
+    description: End a round if there is one on.
+    usage: /<command>
+    aliases: [e, end]
+  start:
+    description: Start a random map.
+    usage: /<command>
+    aliases: [strt, go]
+  random:
+    description: Pick a random online human.
+    usage: /<command>
+    aliases: [r, rndm]
+  disinfect:
+    description: Disinfect yourself or another player.
+    usage: /<command> [player]
+    aliases: [disinf, revive]
+  infect:
+    description: Infect yourself or another player.
+    usage: /<command> [player]
+    aliases: [inf, zombify]
+  infected:
+    description: Check who is infected.
+    usage: /<command>
+    aliases: [zombies]
+  alive:
+    description: Check who is still alive.
+    usage: /<command>
+    aliases: [humans, noninfected]
+  adminchat:
+    description: Speak in the adminchat.
+    usage: /<command> [message]
+    aliases: [a, mb]
+  gamemode:
+    description: Change your or an online player's gamemode.
+    usage: /<command> [gamemode] [player]
+    aliases: [gm]
+  load:
+    description: Load an unloaded map to edit it.
+    usage: /<command> [map]
+    aliases: [ld, edit]
+  unload:
+    description: Unload a loaded map, save it first!
+    usage: /<command> [map]
+    aliases: [unld]
+  broadcast:
+    description: Broadcast a message.
+    usage: /<command> [message]
+  clearinventory:
+    description: Clear your or an online player's inventory.
+    usage: /<command>
+    aliases: [ci]
+  start:
+    description: Start the entire rotation and vote cycles.
+    usage: /<command>
+    aliases: [strt, go]
+  save:
+    description: Save a world that you are editing.
+    usage: /<command>
+    aliases: [saveworld, save-one]
+  world:
+    description: Visit a loaded world.
+    usage: /<command> [world]
+    aliases: [wtp, wrld, wt]
+permissions:
+  oresomeinfected.mod:
+    description: Give this to mods.
+  oresomeinfected.admin:
+    description: Give this to admins.
+  oresomeinfected.donor:
+    description: Give this to donors.
+
